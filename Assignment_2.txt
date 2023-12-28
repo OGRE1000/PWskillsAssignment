@@ -1,0 +1,84 @@
+Ques 1. List the operators in Java.
+
+Ans 1. *List of operators in Java:*
+   - Arithmetic Operators: +, -, *, /, %
+   - Relational Operators: <, >, <=, >=, ==, !=
+   - Logical Operators: &&, ||, !
+   - Bitwise Operators: &, |, ^, ~, <<, >>
+   - Assignment Operators: =, +=, -=, *=, /=, %=
+   - Increment/Decrement Operators: ++, --
+   - Conditional Operator (Ternary Operator): ? :
+   - instanceof Operator
+   - Bitwise Shift Operators: <<, >>, >>>
+
+
+Ques 2. Explain about increment and decrement operators and give an example of each.
+
+Ans 2. *Increment and Decrement Operators:*
+   - Increment Operator (++): Increases the value of the operand by 1.
+     Example: int x = 5; x++; // After this, x will be 6
+   - Decrement Operator (--): Decreases the value of the operand by 1.
+     Example: int y = 8; y--; // After this, y will be 7
+
+
+Ques 3. What are the Conditional Operators in Java?
+
+Ans 3. *Conditional Operators in Java:*
+  Conditional or Logical  AND	&&
+  Conditional or Logical  OR	||
+  Ternary Operator	        ?:
+
+Ques 4. What are the types of operators based on the number of operands?
+
+Ans 4. *Types of Operators based on the Number of Operands:*
+   - Unary Operators: Operate on one operand (e.g., ++x, -y)
+   - Binary Operators: Operate on two operands (e.g., x + y, a * b)
+   - Ternary Operator: Operates on three operands (e.g., x > y ? x : y)
+
+
+Ques 5. What are the conditional statements and use of conditional statements in Java?
+
+Ans 5. *Conditional Statements and Use in Java:*
+   - Conditional statements include if, else if, and else.
+   - They are used to make decisions in the program flow based on specified conditions.
+
+
+Ques 6.  What is the syntax of if else statement?
+
+Ans 6. *Syntax of if-else Statement:*
+   java
+   if (condition) {
+       // Code to be executed if the condition is true
+   } else {
+       // Code to be executed if the condition is false
+   }
+
+   
+Ques 7. What are the 3 types of iterative statements in java?
+
+Ans 7. *3 Types of Iterative Statements in Java:*
+   - for loop
+   - while loop
+   - do-while loop
+
+
+Ques 8. What do you mean by an array?
+
+Ans 8. *Array:*
+   - An array is a data structure that stores a fixed-size sequential collection of elements of the same type.
+
+
+Ques 9. How to create an array?
+
+Ans 9. *How to Create an Array:*
+   java
+   // Syntax for creating an array of integers
+   int[] myArray = new int[5];
+
+   
+Ques 10. State the difference between StringBuffer and StringBuilder in Java.
+
+Ans 10. *Difference between StringBuffer and StringBuilder:*
+    - StringBuffer is synchronized (thread-safe), while StringBuilder is not.
+    - StringBuffer is generally slower than StringBuilder due to synchronization.
+    - If thread safety is not a concern, it's recommended to use StringBuilder for better performance.
